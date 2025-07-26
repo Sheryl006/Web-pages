@@ -1,0 +1,42 @@
+header{
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  size: 50px;
+padding-left: 20px;
+width: 100%;
+}
+header>h1{
+    text-align: center;
+    padding-left: 400px;
+}
+#container{
+    border: 1px solid black;
+    padding: 30px 40px;
+    display: inline-block;
+    width: 100%;
+
+}
+input[type=reset] ,input[type=submit]{
+  padding: 8px 16px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type=reset]:hover ,input[type=submit]:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+input[type=number],input[type=date],select{
+    padding: 5px 10px;
+    width: 60%;
+}
+fieldset{
+    width: 100%;
+}
